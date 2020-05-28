@@ -4,7 +4,9 @@
   "description": "A chat app with sentiment analysis, designed using NextJS, ReactJS, Sentiment and Pusher",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "node server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server.js"
   },
   "keywords": [
     "NextJS",
